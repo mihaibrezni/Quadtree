@@ -52,13 +52,11 @@ Command:
 Example:
 ./quadtree -m v 100 image.ppm vertical.ppm
 ~~~
-<img src=https://i.imgur.com/zd3jOXf.png width="256" height="256"/>
 
 For flipping without compression use the compression_level 0
 ~~~
 ./quadtree -m v 0 image.ppm vertical.ppm
 ~~~
-<img src=https://i.imgur.com/isJsLUW.png width="256" height="256"/>
 
 ### Overlay two images
 ~~~
@@ -67,4 +65,4 @@ Command:
 Example:
 ./quadtree -o 0 image1.ppm image2.ppm overlay.ppm
 ~~~
-<img src=https://i.imgur.com/WQcut5b.jpg width="256" height="256"/> <img src=https://i.imgur.com/J4llid0.png width="256" height="256"/> <img src=https://i.imgur.com/3qdYckA.png width="256" height="256"/>
+
