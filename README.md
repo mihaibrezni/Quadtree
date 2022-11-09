@@ -15,7 +15,7 @@ Command:
 Example:
 ./quadtree -m n 370 image.ppm image_out.ppm
 ~~~
-<img src=https://i.imgur.com/ualZIbc.png width="256" height="256"/>
+
 
 ### Compress image into binary format
 Compresses the image into a binary format that can be interpreted by the program.
@@ -43,7 +43,7 @@ Command:
 Example:
 ./quadtree -m h 100 image.ppm horizontal.ppm
 ~~~
-<img src=https://i.imgur.com/cBrSKnK.png width="256" height="256"/>
+
 
 #### Vertical flip
 ~~~
