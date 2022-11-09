@@ -57,12 +57,3 @@ For flipping without compression use the compression_level 0
 ~~~
 ./quadtree -m v 0 image.ppm vertical.ppm
 ~~~
-
-### Overlay two images
-~~~
-Command:
-./quadtree -o <compression_level> <image_input1> <image_input2> <overlay_output>
-Example:
-./quadtree -o 0 image1.ppm image2.ppm overlay.ppm
-~~~
-
